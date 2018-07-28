@@ -7,7 +7,13 @@
   "author": "apJammanbo <apJammanbo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.26",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
   }
 }

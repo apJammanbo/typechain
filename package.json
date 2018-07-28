@@ -1,0 +1,13 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "blockchain with typescript",
+  "main": "index.js",
+  "repository": "https://github.com/apJammanbo/typechain.git",
+  "author": "apJammanbo <apJammanbo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "prestart": "tsc"
+  }
+}
